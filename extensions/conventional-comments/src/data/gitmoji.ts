@@ -17,8 +17,8 @@ const gitmoji: GitmojiTypes = {
   formats: [
     { title: "♻️ (scope) description", value: "{emoji}{scope} {description}" },
     { title: "♻️ (scope): description", value: "{emoji}{scope}: {description}" },
-    { title: "♻️ refactor(scope): description", value: "{emoji}{type}{scope}: {description}" },
-    { title: "refactor(scope): description", value: "{type}{scope}: {description}" },
+    { title: "♻️ type(scope): description", value: "{emoji}{type}{scope}: {description}" },
+    { title: "type(scope): description", value: "{type}{scope}: {description}" },
   ],
   types,
 };
